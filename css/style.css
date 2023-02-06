@@ -1,5 +1,13 @@
+/* General */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+:root{
+    --bgcolorh: #255EE9;
+    --colortext: #000000;
+    --colortext2: #FFFFFF;
+    --bgcolorf: #23272A;
+    --button: #7289DA;
 }
