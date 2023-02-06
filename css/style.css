@@ -10,4 +10,30 @@
     --colortext2: #FFFFFF;
     --bgcolorf: #23272A;
     --button: #7289DA;
+    --bgcolors: #F6F6F6;
+}
+body{
+    background-color: var(--bgcolors);
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    min-width: 300px;
+    max-width: 1200px;
+}
+.debug{
+    border: 1px solid black;
+}
+.container{
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding: 1rem;
 }
