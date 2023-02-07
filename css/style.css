@@ -26,7 +26,6 @@ body{
 .container{
     margin: 0 auto;
     max-width: 1200px;
-    padding: 0 0 15 15px;
 }
 .navbar{
     display: flex;
@@ -48,12 +47,10 @@ header{
     height: 500px;  
 }
 .right{
-    width: 40%;
-    float: right;;
+    width: 35%;
 }
 .left{
-    width: 60%;
-    float: left;
+    width: 65%;
 }
 .reverse{
     flex-flow: row-reverse;
