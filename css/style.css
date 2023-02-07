@@ -10,25 +10,28 @@
     --colortext2: #FFFFFF;
     --bgcolorf: #23272A;
     --button: #7289DA;
-    --bgcolors: #F6F6F6;
+    --bgcolors: #e8dfdf;
 }
 body{
-    background-color: var(--bgcolors);
+    background-color: var(--colortext2);
     text-align: center;
     margin: 0 auto;
     justify-content: space-around;
     min-width: 300px;
-    max-width: 1200px;
+    color: var(--colortext2);
 }
 .debug{
     border: 1px solid black;
 }
 .container{
     margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 0 15 15px;
 }
 .navbar{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
+    padding-top: 5px;
 }
 ul{
     list-style: none;
@@ -36,4 +39,41 @@ ul{
 li{
     display: inline;
     padding: 1rem;
+}
+header{
+    background-image: url(../img/jumbo.png);
+    background-color: var(--bgcolorh);
+    min-width: 500px;
+    background-size: cover;  
+    height: 500px;  
+}
+.right{
+    width: 40%;
+    float: right;;
+}
+.left{
+    width: 60%;
+    float: left;
+}
+.reverse{
+    flex-flow: row-reverse;
+}
+footer{
+    background-color: var(--bgcolorf);
+}
+.center{
+    padding: 10px;
+    justify-content: center;
+}
+.bgcolor24{
+    background-color: var(--bgcolors);
+}
+.bgcolor13{
+    background-color: var(--colortext2);
+}
+.dflex{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-content: flex-start;
 }
